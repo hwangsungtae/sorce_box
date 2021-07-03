@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_02ad4f16a8be4b919733186bd918a3c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_02ad4f16a8be4b919733186bd918a3c1" ></div>
+        
+</body>
+<script>    
+    
+            var map_02ad4f16a8be4b919733186bd918a3c1 = L.map(
+                "map_02ad4f16a8be4b919733186bd918a3c1",
+                {
+                    center: [34.679142, 135.185357],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2e195f098c844dceaef000dfa6b7aac3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+            var marker_6860f94a449746dc984680f2f594a3de = L.marker(
+                [34.679142, 135.185357],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_8084a14144bc47a19f9375aa16c306b1 = L.popup({"maxWidth": 1000});
+
+        
+            var html_8f8e3ac582104205b41181c2a01d4e18 = $(`<div id="html_8f8e3ac582104205b41181c2a01d4e18" style="width: 100.0%; height: 100.0%;">ポートタワーなどキャラクター性の高いあかりが並ぶ港夜景</div>`)[0];
+            popup_8084a14144bc47a19f9375aa16c306b1.setContent(html_8f8e3ac582104205b41181c2a01d4e18);
+        
+
+        marker_6860f94a449746dc984680f2f594a3de.bindPopup(popup_8084a14144bc47a19f9375aa16c306b1)
+        ;
+
+        
+    
+    
+            marker_6860f94a449746dc984680f2f594a3de.bindTooltip(
+                `<div>
+                     高浜岸壁
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_666b4acc0ea74c5281d15e499bcb584c = L.marker(
+                [34.680531, 135.187501],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_6d4ea47066f649728b133128f80312c7 = L.popup({"maxWidth": 1000});
+
+        
+            var html_42066d9b88c242598100919450f5016e = $(`<div id="html_42066d9b88c242598100919450f5016e" style="width: 100.0%; height: 100.0%;">上品でまとまりのある低層部のあかりと光のエンターテイメント</div>`)[0];
+            popup_6d4ea47066f649728b133128f80312c7.setContent(html_42066d9b88c242598100919450f5016e);
+        
+
+        marker_666b4acc0ea74c5281d15e499bcb584c.bindPopup(popup_6d4ea47066f649728b133128f80312c7)
+        ;
+
+        
+    
+    
+            marker_666b4acc0ea74c5281d15e499bcb584c.bindTooltip(
+                `<div>
+                     中突堤西側
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d599c2f1ec946c7880b936316b5323e = L.marker(
+                [34.686675, 135.183614],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_799e777acdd04f05956febd68f8e6c2d = L.popup({"maxWidth": 1000});
+
+        
+            var html_32b6a17fbf7a41aaad3b12ebeb5d8820 = $(`<div id="html_32b6a17fbf7a41aaad3b12ebeb5d8820" style="width: 100.0%; height: 100.0%;">商店街の合間から突如出現する凛々しいポートタワー</div>`)[0];
+            popup_799e777acdd04f05956febd68f8e6c2d.setContent(html_32b6a17fbf7a41aaad3b12ebeb5d8820);
+        
+
+        marker_3d599c2f1ec946c7880b936316b5323e.bindPopup(popup_799e777acdd04f05956febd68f8e6c2d)
+        ;
+
+        
+    
+    
+            marker_3d599c2f1ec946c7880b936316b5323e.bindTooltip(
+                `<div>
+                     元町商店街
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed12984eba244a34bf2cb03940b2b0e1 = L.marker(
+                [34.687737, 135.186715],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_c030f9d4a6da4dbf8653ba1a0af1376a = L.popup({"maxWidth": 1000});
+
+        
+            var html_24028aeab3924dce934f2459f7bbb8ce = $(`<div id="html_24028aeab3924dce934f2459f7bbb8ce" style="width: 100.0%; height: 100.0%;">門越しにみえるエネルギッシュな南京町のにぎわい</div>`)[0];
+            popup_c030f9d4a6da4dbf8653ba1a0af1376a.setContent(html_24028aeab3924dce934f2459f7bbb8ce);
+        
+
+        marker_ed12984eba244a34bf2cb03940b2b0e1.bindPopup(popup_c030f9d4a6da4dbf8653ba1a0af1376a)
+        ;
+
+        
+    
+    
+            marker_ed12984eba244a34bf2cb03940b2b0e1.bindTooltip(
+                `<div>
+                     西安門前
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b2523ce8b944dad865f0e16d5bab4bb = L.marker(
+                [34.686506, 135.187057],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_99e9bca7f7fe4615b14d27e44d5cb500 = L.popup({"maxWidth": 1000});
+
+        
+            var html_3c5b73e7bc014e0d8e33b9af1b62ec20 = $(`<div id="html_3c5b73e7bc014e0d8e33b9af1b62ec20" style="width: 100.0%; height: 100.0%;">ほっとする温かみのある個店と街灯のあかり</div>`)[0];
+            popup_99e9bca7f7fe4615b14d27e44d5cb500.setContent(html_3c5b73e7bc014e0d8e33b9af1b62ec20);
+        
+
+        marker_1b2523ce8b944dad865f0e16d5bab4bb.bindPopup(popup_99e9bca7f7fe4615b14d27e44d5cb500)
+        ;
+
+        
+    
+    
+            marker_1b2523ce8b944dad865f0e16d5bab4bb.bindTooltip(
+                `<div>
+                     乙仲通
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad614fa329f04552affbd5cff9715725 = L.marker(
+                [34.688225, 135.19102],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_c3ce8e0e5cee40d486136b38a7c870d6 = L.popup({"maxWidth": 1000});
+
+        
+            var html_fa9036330d164ee5b1d53a564bf385b7 = $(`<div id="html_fa9036330d164ee5b1d53a564bf385b7" style="width: 100.0%; height: 100.0%;">近代洋風建築やガス灯など、歩くことが楽しい厚みのあるあかり</div>`)[0];
+            popup_c3ce8e0e5cee40d486136b38a7c870d6.setContent(html_fa9036330d164ee5b1d53a564bf385b7);
+        
+
+        marker_ad614fa329f04552affbd5cff9715725.bindPopup(popup_c3ce8e0e5cee40d486136b38a7c870d6)
+        ;
+
+        
+    
+    
+            marker_ad614fa329f04552affbd5cff9715725.bindTooltip(
+                `<div>
+                     明石町筋
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1ff206018dd4ea486df5eafd60db500 = L.marker(
+                [34.690554, 135.191563],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_63b71239a79d4400b71aa7a49832fca8 = L.popup({"maxWidth": 1000});
+
+        
+            var html_fd159e845c474a458ff35411902c5089 = $(`<div id="html_fd159e845c474a458ff35411902c5089" style="width: 100.0%; height: 100.0%;">個店と街灯が織り成す界わい性のある路地のあかり</div>`)[0];
+            popup_63b71239a79d4400b71aa7a49832fca8.setContent(html_fd159e845c474a458ff35411902c5089);
+        
+
+        marker_a1ff206018dd4ea486df5eafd60db500.bindPopup(popup_63b71239a79d4400b71aa7a49832fca8)
+        ;
+
+        
+    
+    
+            marker_a1ff206018dd4ea486df5eafd60db500.bindTooltip(
+                `<div>
+                     三宮センターサウス
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23a98d2f162f445fb1d3a4a24bcf7261 = L.marker(
+                [34.689467, 135.195755],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_c18c351cc2274d3298773be469e76c7e = L.popup({"maxWidth": 1000});
+
+        
+            var html_1371e7f8d1a145d3af99f85883030a3e = $(`<div id="html_1371e7f8d1a145d3af99f85883030a3e" style="width: 100.0%; height: 100.0%;">都心市街地からウォーターフロントにかけてのパノラマビュー</div>`)[0];
+            popup_c18c351cc2274d3298773be469e76c7e.setContent(html_1371e7f8d1a145d3af99f85883030a3e);
+        
+
+        marker_23a98d2f162f445fb1d3a4a24bcf7261.bindPopup(popup_c18c351cc2274d3298773be469e76c7e)
+        ;
+
+        
+    
+    
+            marker_23a98d2f162f445fb1d3a4a24bcf7261.bindTooltip(
+                `<div>
+                     神戸市役所１号館24階
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33c340fd033c44b99dd2e80bb00abc40 = L.marker(
+                [34.70041, 135.190184],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_0322731e0f524eb48cc28f4e556e9158 = L.popup({"maxWidth": 1000});
+
+        
+            var html_a16007884edb433eba1fad3f3b4d2242 = $(`<div id="html_a16007884edb433eba1fad3f3b4d2242" style="width: 100.0%; height: 100.0%;">街路樹のライトアップが連続するダイナミックな見通しのビュー</div>`)[0];
+            popup_0322731e0f524eb48cc28f4e556e9158.setContent(html_a16007884edb433eba1fad3f3b4d2242);
+        
+
+        marker_33c340fd033c44b99dd2e80bb00abc40.bindPopup(popup_0322731e0f524eb48cc28f4e556e9158)
+        ;
+
+        
+    
+    
+            marker_33c340fd033c44b99dd2e80bb00abc40.bindTooltip(
+                `<div>
+                     北野坂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72f8b544fd1c49bea4c743d933a7c83c = L.marker(
+                [34.672483, 135.201711],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_25d06ea02e2b44c0ae7ca024ef1f609b = L.popup({"maxWidth": 1000});
+
+        
+            var html_94cf7bf367344eb3872263eddcf633c0 = $(`<div id="html_94cf7bf367344eb3872263eddcf633c0" style="width: 100.0%; height: 100.0%;">山並みを背景とした神戸の夜景を海側から堪能する絶景ポイント</div>`)[0];
+            popup_25d06ea02e2b44c0ae7ca024ef1f609b.setContent(html_94cf7bf367344eb3872263eddcf633c0);
+        
+
+        marker_72f8b544fd1c49bea4c743d933a7c83c.bindPopup(popup_25d06ea02e2b44c0ae7ca024ef1f609b)
+        ;
+
+        
+    
+    
+            marker_72f8b544fd1c49bea4c743d933a7c83c.bindTooltip(
+                `<div>
+                     ポーアイしおさい公園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98e2290de6d54c5d822416354b365e27 = L.marker(
+                [34.697176, 135.180686],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_805838b83e7343acbefb3ecb97a43825 = L.popup({"maxWidth": 1000});
+
+        
+            var html_3cf1235123744e879b2391a987f65808 = $(`<div id="html_3cf1235123744e879b2391a987f65808" style="width: 100.0%; height: 100.0%;">市街地の近くで気軽に楽しめる港と街の大パノラマ</div>`)[0];
+            popup_805838b83e7343acbefb3ecb97a43825.setContent(html_3cf1235123744e879b2391a987f65808);
+        
+
+        marker_98e2290de6d54c5d822416354b365e27.bindPopup(popup_805838b83e7343acbefb3ecb97a43825)
+        ;
+
+        
+    
+    
+            marker_98e2290de6d54c5d822416354b365e27.bindTooltip(
+                `<div>
+                     ビーナスブリッジ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1c493ecf63d47b68c662f7685037912 = L.marker(
+                [34.714377, 135.191913],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_d22bd4f41d3349b9965d41caca87b039 = L.popup({"maxWidth": 1000});
+
+        
+            var html_fb80ef26d1674e3695ef313d16bdd257 = $(`<div id="html_fb80ef26d1674e3695ef313d16bdd257" style="width: 100.0%; height: 100.0%;">ハーブの香り漂う、神戸夜景のビューポイント！</div>`)[0];
+            popup_d22bd4f41d3349b9965d41caca87b039.setContent(html_fb80ef26d1674e3695ef313d16bdd257);
+        
+
+        marker_d1c493ecf63d47b68c662f7685037912.bindPopup(popup_d22bd4f41d3349b9965d41caca87b039)
+        ;
+
+        
+    
+    
+            marker_d1c493ecf63d47b68c662f7685037912.bindTooltip(
+                `<div>
+                     神戸布引ハーブ園 / ロープウェイ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b31e0be339c4c7981d547030ea67891 = L.marker(
+                [34.734234, 135.206355],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_3feecc6c41b9427787b73051d3bd01e3 = L.popup({"maxWidth": 1000});
+
+        
+            var html_573642daf8cf461ca89d9579b1254042 = $(`<div id="html_573642daf8cf461ca89d9579b1254042" style="width: 100.0%; height: 100.0%;">日本三大夜景のダイナミックなきらめきを心に残して</div>`)[0];
+            popup_3feecc6c41b9427787b73051d3bd01e3.setContent(html_573642daf8cf461ca89d9579b1254042);
+        
+
+        marker_5b31e0be339c4c7981d547030ea67891.bindPopup(popup_3feecc6c41b9427787b73051d3bd01e3)
+        ;
+
+        
+    
+    
+            marker_5b31e0be339c4c7981d547030ea67891.bindTooltip(
+                `<div>
+                     まやビューライン　掬星台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d2583ebe89a4ee0b0bec446c50bf041 = L.marker(
+                [34.748753, 135.225077],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_6711fec7934a4aebbb9ab3a1aa98ed53 = L.popup({"maxWidth": 1000});
+
+        
+            var html_15e5dd6cc754451e8bd1d9c3a9adc2d7 = $(`<div id="html_15e5dd6cc754451e8bd1d9c3a9adc2d7" style="width: 100.0%; height: 100.0%;">何度も通いたくなる、臨場感抜群の街のきらめき</div>`)[0];
+            popup_6711fec7934a4aebbb9ab3a1aa98ed53.setContent(html_15e5dd6cc754451e8bd1d9c3a9adc2d7);
+        
+
+        marker_2d2583ebe89a4ee0b0bec446c50bf041.bindPopup(popup_6711fec7934a4aebbb9ab3a1aa98ed53)
+        ;
+
+        
+    
+    
+            marker_2d2583ebe89a4ee0b0bec446c50bf041.bindTooltip(
+                `<div>
+                     鉢巻天覧台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b2e1e7ff1f447b392a1355e8b7310b2 = L.marker(
+                [34.752017, 135.237226],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_d32e42f03df645feb20ad21e8345e50e = L.popup({"maxWidth": 1000});
+
+        
+            var html_d871df74ad7a4400a3f6770c1136cb7f = $(`<div id="html_d871df74ad7a4400a3f6770c1136cb7f" style="width: 100.0%; height: 100.0%;">ロマンチックな車両に乗って、六甲山を象徴する夜景スポットへ</div>`)[0];
+            popup_d32e42f03df645feb20ad21e8345e50e.setContent(html_d871df74ad7a4400a3f6770c1136cb7f);
+        
+
+        marker_7b2e1e7ff1f447b392a1355e8b7310b2.bindPopup(popup_d32e42f03df645feb20ad21e8345e50e)
+        ;
+
+        
+    
+    
+            marker_7b2e1e7ff1f447b392a1355e8b7310b2.bindTooltip(
+                `<div>
+                     六甲ケーブル　天覧台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4916218360042b48c988199f9f3c660 = L.marker(
+                [34.7644, 135.246507],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_7d868d22fead4962b0d738129c3f6934 = L.popup({"maxWidth": 1000});
+
+        
+            var html_cda6e48b0f1d412496d8006ca067c559 = $(`<div id="html_cda6e48b0f1d412496d8006ca067c559" style="width: 100.0%; height: 100.0%;">創作料理を味わいながら眼下に広がるワイドビューを満喫</div>`)[0];
+            popup_7d868d22fead4962b0d738129c3f6934.setContent(html_cda6e48b0f1d412496d8006ca067c559);
+        
+
+        marker_b4916218360042b48c988199f9f3c660.bindPopup(popup_7d868d22fead4962b0d738129c3f6934)
+        ;
+
+        
+    
+    
+            marker_b4916218360042b48c988199f9f3c660.bindTooltip(
+                `<div>
+                     六甲ガーデンテラス
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c37f890c70b5472daa28aafcf97c943d = L.marker(
+                [34.688716, 135.190447],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_cc8253b04b124a55bfd1e155dd60f950 = L.popup({"maxWidth": 1000});
+
+        
+            var html_60a96e3baac04a91a03741dba3d11961 = $(`<div id="html_60a96e3baac04a91a03741dba3d11961" style="width: 100.0%; height: 100.0%;">東洋一美しい、異国の街へタイムトリップ</div>`)[0];
+            popup_cc8253b04b124a55bfd1e155dd60f950.setContent(html_60a96e3baac04a91a03741dba3d11961);
+        
+
+        marker_c37f890c70b5472daa28aafcf97c943d.bindPopup(popup_cc8253b04b124a55bfd1e155dd60f950)
+        ;
+
+        
+    
+    
+            marker_c37f890c70b5472daa28aafcf97c943d.bindTooltip(
+                `<div>
+                     旧居留地
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61799b51a69d4a23aaab09e57804c0cb = L.marker(
+                [34.631301, 135.035766],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_8ab1a3b444fc412dbd3678af66c8a620 = L.popup({"maxWidth": 1000});
+
+        
+            var html_e367e6756f0d43bf9a94f07d5ddd4202 = $(`<div id="html_e367e6756f0d43bf9a94f07d5ddd4202" style="width: 100.0%; height: 100.0%;">レインボーに輝く、世界一のつり橋に出会えるかも！</div>`)[0];
+            popup_8ab1a3b444fc412dbd3678af66c8a620.setContent(html_e367e6756f0d43bf9a94f07d5ddd4202);
+        
+
+        marker_61799b51a69d4a23aaab09e57804c0cb.bindPopup(popup_8ab1a3b444fc412dbd3678af66c8a620)
+        ;
+
+        
+    
+    
+            marker_61799b51a69d4a23aaab09e57804c0cb.bindTooltip(
+                `<div>
+                     明石海峡大橋（パールブリッジ）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94c011b191bc4196a06aa1640074b6ea = L.marker(
+                [34.678478, 135.178638],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_f1efa3fa7299446c8076f0148b01035b = L.popup({"maxWidth": 1000});
+
+        
+            var html_b607556b2875420d8cb2f31c82197bf8 = $(`<div id="html_b607556b2875420d8cb2f31c82197bf8" style="width: 100.0%; height: 100.0%;">夜の港を照らすポップな色の光。観光船との光の競演も！</div>`)[0];
+            popup_f1efa3fa7299446c8076f0148b01035b.setContent(html_b607556b2875420d8cb2f31c82197bf8);
+        
+
+        marker_94c011b191bc4196a06aa1640074b6ea.bindPopup(popup_f1efa3fa7299446c8076f0148b01035b)
+        ;
+
+        
+    
+    
+            marker_94c011b191bc4196a06aa1640074b6ea.bindTooltip(
+                `<div>
+                     神戸ハーバーランド
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57ce74ddb8ef4a84a21ebf3c22cec00d = L.marker(
+                [34.682759, 135.187303],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_96a5323fa48543859b2c63eb5e2a2f46 = L.popup({"maxWidth": 1000});
+
+        
+            var html_de4f31f1e07a4b0e810b8320be714a97 = $(`<div id="html_de4f31f1e07a4b0e810b8320be714a97" style="width: 100.0%; height: 100.0%;">赤と白に輝く、ユニークなフォルムは港町のシンボル</div>`)[0];
+            popup_96a5323fa48543859b2c63eb5e2a2f46.setContent(html_de4f31f1e07a4b0e810b8320be714a97);
+        
+
+        marker_57ce74ddb8ef4a84a21ebf3c22cec00d.bindPopup(popup_96a5323fa48543859b2c63eb5e2a2f46)
+        ;
+
+        
+    
+    
+            marker_57ce74ddb8ef4a84a21ebf3c22cec00d.bindTooltip(
+                `<div>
+                     神戸ポートタワー・神戸海洋博物館 / カワサキワールド
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebcb6e3d38a34f2f81385d82eb0af300 = L.marker(
+                [34.676626, 135.204618],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_0d995f9f04244997abb189ed9f976729 = L.popup({"maxWidth": 1000});
+
+        
+            var html_0425e70a3bf3426bbe12e2ac68da04e6 = $(`<div id="html_0425e70a3bf3426bbe12e2ac68da04e6" style="width: 100.0%; height: 100.0%;">潮のBGMに、ゆったり過ごす極上の夜景タイム</div>`)[0];
+            popup_0d995f9f04244997abb189ed9f976729.setContent(html_0425e70a3bf3426bbe12e2ac68da04e6);
+        
+
+        marker_ebcb6e3d38a34f2f81385d82eb0af300.bindPopup(popup_0d995f9f04244997abb189ed9f976729)
+        ;
+
+        
+    
+    
+            marker_ebcb6e3d38a34f2f81385d82eb0af300.bindTooltip(
+                `<div>
+                     ポートアイランド北公園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6eb9e28a6bd4ec8b56167553c9aa7d1 = L.marker(
+                [34.636803, 135.228703],
+                {}
+            ).addTo(map_02ad4f16a8be4b919733186bd918a3c1);
+        
+    
+        var popup_3252e1cc156c44dda079e7c7aeecb278 = L.popup({"maxWidth": 1000});
+
+        
+            var html_cb5ab1eaca2d4249a842f2f6b8ff0b09 = $(`<div id="html_cb5ab1eaca2d4249a842f2f6b8ff0b09" style="width: 100.0%; height: 100.0%;">ライトアップされた夜の空港と真近に迫る飛行機を体感</div>`)[0];
+            popup_3252e1cc156c44dda079e7c7aeecb278.setContent(html_cb5ab1eaca2d4249a842f2f6b8ff0b09);
+        
+
+        marker_e6eb9e28a6bd4ec8b56167553c9aa7d1.bindPopup(popup_3252e1cc156c44dda079e7c7aeecb278)
+        ;
+
+        
+    
+    
+            marker_e6eb9e28a6bd4ec8b56167553c9aa7d1.bindTooltip(
+                `<div>
+                     神戸空港マリンエア
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
